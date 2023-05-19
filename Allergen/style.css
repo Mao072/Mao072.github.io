@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
+.logo{
+    position: absolute;
+    top :10px;
+    left: 20px;
+}
+.img1{
+    position: absolute;
+    top:80px;
+    right: 180px;
+}
+.img2{
+    position: absolute;
+    top:80px;
+    right: 140px;
+}
+.img3{
+    position: absolute;
+    top:80px;
+    right: 100px;
+}
+.img4{
+    position: absolute;
+    top:80px;
+    right: 60px;
+}
+.img5{
+    position: absolute;
+    top:80px;
+    right: 20px;
+}
+
+body{
+    background-image:url("wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+body {
+    height: 100%;
+    margin: 5px 5px 5px 5px auto;
+}
+.container{
+    position: absolute;
+    top:27%;
+    left: 30%;
+    height: 70%;
+    font-family:'Noto Sans TC',sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color:rgb(255, 255, 255);
+}
+.p2{
+    font-size: 23px;
+    margin:5px 5px 5px 5px ;
+    line-height: 50px;
+    color:rgb(87, 83, 83);
+}
+.p3{
+    font-size: 19px;
+    color:rgb(87, 83, 83);
+}
+button{
+    font-family: 'Noto Sans TC',sans-serif;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.log_in{
+    font-size: 22px;
+    border: 2px solid orange; 
+    position: relative;
+    left: 33%;
+    top:0%
+}
+.get_start{
+    font-size: 15px;
+    border: 2px dashed rgb(6, 147, 186);
+    position: relative;
+    left: 32%;
+    bottom: 10%; 
+}
+.log_in:hover{
+    color:white;
+    background-color: orange;
+    transition-duration: 0.3s;
+    
+}
+
+.get_start:hover{   
+    color:white;
+    background-color: rgb(31, 224, 176);
+    transition-duration: 0.3s;
+}
